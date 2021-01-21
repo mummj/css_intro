@@ -11,7 +11,22 @@
     height: 100px;
 }
 #top-right{
-    width: 50px;
-    height: 50px;
-    background-color: red;
+    background: green;
+    top: 0;
+    right: 0;
+}
+#top-left{
+    background: red;
+    top: 0;
+    right: 0;
+}
+#bottom-right{
+    background: black;
+    top: 0;
+    right: 0;
+}
+#bottom-left{
+    background: purple;
+    top: 0;
+    right: 0;
 }
