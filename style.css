@@ -48,3 +48,11 @@ section{
 h2{
     color:red;
 }
+main{
+    margin:50px;
+    padding:50px;
+    text-align:center;
+    border: 1px green;
+    background:black;
+    color:white;
+}
