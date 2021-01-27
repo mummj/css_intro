@@ -2,7 +2,7 @@
 #container{
     position:relative;
     width:600px;
-    height:400px;
+    height:600px;
     background:orange;
     top: 50px;
     left: 200px;
@@ -15,35 +15,44 @@
 #top-right{
     background: green;
     top: 15px;
-    right: 25px;
+    right: 15px;
 }
 #top-left{
     background: red;
     top: 15px;
-    left: 25px;
+    left: 15px;
 }
 #bottom-right{
     background: black;
     bottom: 15px;
-    right: 25px;
+    right: 15px;
 }
 #bottom-left{
     background: purple;
     bottom: 15px;
-    left: 25px;
+    left: 15px;
 }
-header{
-    position: fixed;
-background: black;
-height: 100px;
-width: 100%;
-margin-top:20px;
+div{
+    float: left;
+    width: 300px;
+    height: 300px;
+    outline: dotted 1px green;
+    background: black;
 }
-h1{
-    color: white;
-    text-align: center;
+section{
+    clear: left;
+    background:red
+    width: 900px;
+    height: 300px;
 }
-p{
-    padding-top: 125px;
-    min-height: 800px;
+h2{
+    color:red;
+}
+main{
+    margin:50px;
+    padding:50px;
+    text-align:center;
+    border: 1px green;
+    background:black;
+    color:white;
 }
